@@ -1,0 +1,146 @@
+.group {
+    position: relative;
+}
+
+.input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    color: white;
+    background: transparent;
+}
+
+.input:focus {
+    outline: none;
+    color: white;
+}
+
+.caja {
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: auto;
+}
+
+h2 {
+    color: white !important;
+    text-align: center;
+}
+
+/* <select> styles */
+input {
+    /* Reset */
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 20rem;
+    padding: 1rem 4rem 1rem 1rem;
+
+    color: #272626;
+    border-radius: 0.25em;
+
+    margin-top: 30px;
+
+}
+
+select {
+    /* Reset */
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 20rem;
+    padding: 1rem 4rem 1rem 1rem;
+
+    color: #272626;
+    border-radius: 0.25em;
+
+    margin-top: 30px;
+
+}
+
+.btn-comprar {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.btn-comprar {
+    width: 100%;
+    margin-top: 40px;
+    /* Ajusta el margen superior según sea necesario */
+}
+
+.btn-comprar:hover {
+    background-color: #202221;
+}
+
+.btn-comprar:active {
+    background-color: #5a5959;
+}
+
+
+.main-container {
+    background-color: #333;
+    /* Color de fondo de contraste */
+    color: white;
+    /* Color del texto en la página */
+}
+
+.registro {
+    color: white;
+    margin-top: 15px;
+}
+
+.bienvenida {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.icono {
+    padding-left: 45px;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+
+.btn-eliminar {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-eliminar:hover {
+    background-color: rgb(200, 11, 11);
+}
+
+.btn-eliminar:active {
+    background-color: #a80606;
+}

@@ -1,0 +1,58 @@
+.blanco{
+    color: #fff;
+}
+
+.btn-admin{
+    float: right;
+    font-size: 18px;
+    
+}
+
+.admin {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: -25px;
+    gap: 15px;
+}
+
+.evento-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.evento-data h4 {
+    margin-right: auto;
+}
+
+.img-icono {
+    height: 20px !important;
+    width: 20px !important;
+    margin-left: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-icono:hover {
+    transform: scale(1.5);
+}
+
+
+.img-evento {
+    border: 4px solid #ffffff;
+    /* Cambia el color del borde según tus preferencias */
+    border-radius: 12px;
+    /* Añade esquinas redondeadas para un aspecto más suave */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    /* Agrega una sombra suave para resaltar la imagen */
+    transition: transform 0.3s ease-in-out;
+}
+
+.evento .img-evento:hover {
+    transform: scale(1.05);
+    /* Escala ligeramente la imagen al pasar el ratón sobre ella */
+}

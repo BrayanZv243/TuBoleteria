@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    /* Altura mínima del 100% del viewport */
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.main-content {
+    flex: 1;
+    /* El contenido principal ocupa el espacio disponible */
+}
+
+#footer {
+    background: url(../images/footer-tail.gif) repeat-x left top #bfbfbf;
+    color: #1d1d1d;
+    font-size: 0.86em;
+    line-height: 1.667em;
+    text-align: center;
+    
+}
+
+#footer .left {
+    background: url(../images/footer-left.gif) no-repeat left top;
+    height: 89px;
+    /* Ajusta según sea necesario */
+}
+
+#footer .right {
+    min-height: 89px;
+    height: auto !important;
+    height: 89px;
+    background: url(../images/footer-right.gif) no-repeat right top;
+    text-align: center;
+}
+
+.footerlink {
+    padding: 35px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlink p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-indent: inherit;
+    color: #1d1d1d;
+}
+
+.footerlink a {
+    color: #1d1d1d;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.footerlink a:hover {
+    color: #1d1d1d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.footerlink .lf {
+    flex: 1;
+}
+
+.footerlink .rf {
+    flex: 1;
+}
